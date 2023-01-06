@@ -1,0 +1,509 @@
+/* -----------------------------------*/
+/*     Mainapp--Whole application     */
+/* ---------------------------------- */
+.container {
+background-color: lightgray;
+/* display: flex;
+flex-direction: row; */
+}
+
+
+
+                    /* ----------------------------------- */
+                    /*     App.js Background Img Header    */
+                    /* ----------------------------------- */
+
+.backgroundimg {
+  /* position:static; */
+  width: 105%;
+  height: 50vh;
+  margin-top: 2%;
+  /* display: none; */
+  /* background-repeat: repeat; */
+  animation: fadeIn ease 10s;
+  animation-iteration-count: infinite;
+  /* opacity: 40%; */
+
+}
+ @keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}}
+                    /* --------------------- */
+                    /*     App.js Title    */
+                    /* --------------------- */
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  color:rgb(168, 48, 48);
+  text-align: center;
+  text-shadow: 5px 4px 2px rgb(17, 51, 243);
+}
+
+.titleMR {
+position:absolute;
+/* flex-wrap: wrap;  */
+text-align:center;
+width:max-content;
+/* height: 5vh; */
+/* margin-top: 0%; */
+font-weight: bolder;
+text-shadow: 2px 2px 2px rgb(168, 48, 48);
+top: 1rem;
+font-size: 30px;
+background-color: grey;
+padding: 0;
+min-height: 2vh;
+right: 2.2rem;
+color: whitesmoke;
+/* font: weight 800px;; */
+animation: fadeIn ease 10s;
+animation-iteration-count: infinite;
+}
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+}}
+                    /* --------------------- */
+                    /*  Add.js Add Movie Box */
+                    /* --------------------- */
+
+.containeradd {
+  display: flex;
+  align-self: flex-start;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: red;
+  background-color: #14ffe9;
+  font-weight: 800px;
+  width: 102%;
+  height: 58vh;
+  border: solid;
+  border-color: rgb(74, 74, 143);
+  border-width: 10px;
+  margin-left: -1%;
+  /* margin-right: -10%; */
+  /* margin-top: 0%; */
+  background-image: url('https://i.pinimg.com/564x/45/5e/a2/455ea28a636f75b5b4dca4f6249322ef.jpg');
+  background-repeat: no-repeat;
+} 
+@media (min-width: 576px) {
+  :root {
+    --size-divisor: 2;
+  }
+}
+@media (min-width: 768px) {
+  :root {
+    --size-divisor: 1.5;
+  }
+}
+@media (min-width: 992px) { 
+  :root {
+    --size-divisor: 1;
+  }
+}
+@media (min-width: 1200px) { 
+  :root {
+    --size-divisor: .67;
+  }
+}
+
+                    /* --------------------- */
+                    /*  Add.js Add Movie Btn */
+                    /* --------------------- */
+.submitaddbtm {
+  background-color: red;
+  color: white;
+  margin-left: 28%;
+  font-weight: bolder;
+  font-size: larger;
+  font-style: oblique;
+}
+                      /* ----------  */
+                      /*  Carousel */
+                      /* ----------- */
+.carousel-inner {
+float:right;
+height: 30%;
+width: 50%;
+align-self: center;
+padding-left: 20% 20% 20% 20%;
+/* margin: 10%; */
+margin-top: 8%;
+margin-bottom: 10%;
+margin-left: 49%;
+margin-right: 5%;
+/* padding-right: -200%; */
+border-style: solid;
+border-color: lightsteelblue;
+border-width: .5rem;
+height: 30vh
+}
+
+
+
+
+/*                /////////////////////////// */
+/*                Add.js page input sections */
+/*                ////////////////////////// */
+
+.addDescription {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 9%;
+}
+.titleadd {
+display: flex;
+/* flex-direction: row; */
+margin-left: 5%;
+margin-top: -30%;
+font-size:x-large;
+background-color: whitesmoke;
+}
+.runtimeadd {
+  display: flex;
+  /* flex-direction: row; */
+  margin-left: 5%;
+  font-size:x-large;
+  background-color: whitesmoke;
+}
+.reviewadd {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  font-size:x-large;
+  background-color: whitesmoke;
+}
+.imgadd {
+  display: flex;
+  /* flex-direction: row; */
+  margin-left: 5%;
+  font-size:x-large;
+  background-color: whitesmoke;
+}
+.linkadd {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  font-size:x-large;
+  background-color: whitesmoke;
+}
+
+
+/*                /////////////////////////// */
+/*                      Add.js page Cards   */
+/*                ////////////////////////// */
+
+/*//// Movie.js styling */
+.h3title {
+  color: red;
+  font-weight: bold;
+  font-size: large;
+}
+
+.h3runtime {
+color: #641120;
+font-size: small;
+}
+
+.h3review{
+  color: rgb(97, 132, 97);
+  font-size: medium;
+}
+.imgcard {
+  height: 20vh;
+  width: 20vw;
+}
+.h3trailer {
+  text-decoration: none;
+  color: #1c8cb8;
+  font-size: 20px;
+  text-shadow: 1px 0px 1px#430510;
+}
+.edittab {
+  color: #831e1e;
+}
+
+.deletebtn {
+  font-weight: bolder;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: rgb(35, 67, 172);
+  text-shadow: 2px 2px 0px #a80f14;
+  justify-content: space-around;
+  border-color: cornflowerblue;
+  border-style: double;
+  border-width: 27%;
+}
+      /* ///////////////////////// */
+      /* Edit Drop Down CSS Style */
+      /* ///////////////////////// */
+
+.edittitle{
+color:#f80707
+} 
+
+.editruntime{
+  color:#f80707
+
+}
+
+.editreview{
+  color:#f80707
+}
+
+.editimg{
+  color:#f80707
+}
+
+.editlink{
+  color:#f80707
+}
+
+    /* Cards */
+.border{
+  transition: .5s ease;
+}
+.editbtn {
+color: orange;
+background-color: red ;
+font-size: 19px;
+font-weight: bold;
+}
+
+.border:hover{
+  position: relative;
+  background: linear-gradient(#430510, #9eff01, #39f8db);
+  transition: .5s ease;
+  }
+
+  .row {
+    display:flex;
+    flex-direction: row;
+    width: 25%;
+    padding: 0 10px;
+  } 
+  
+  .row {margin: 0 -5px;}
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 0rem;
+  }
+
+  .border:hover{
+    filter: blur(7px);
+  }
+  .border:hover{
+    filter: blur(14px);
+  }
+
+  .border:hover{
+    animation: rotate 1.5s linear infinite;
+  }
+
+  @keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+    
+}
+
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: flex;
+      /* flex-direction: row; */
+      margin-bottom: 20px;
+    }
+  }
+
+  .row {margin: 0 -5px;}
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+
+    padding: 18px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin: 1 rem;
+  }
+
+  .border:hover{
+    filter: blur(7px);
+  }
+  .border:hover{
+    filter: blur(14px);
+  }
+
+  .border:hover{
+    animation: rotate 1.5s linear infinite;
+  }
+
+  @keyframes rotate {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    } 
+}
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: flex;
+      margin-bottom: 20px;
+    }
+    .card {
+      display: flex;
+      flex-wrap: wrap ;
+      width: 100%;
+      
+    }
+  }
+
+                          /* ------------------- */
+                          /*         Footer      */
+                          /* ------------------- */
+.footer{
+  display: flex;
+  /* flex-direction: column; */
+  background-color: whitesmoke;
+  height: 11vh;
+  border: solid;
+  border-color: red;
+  border-width: 4px;
+  box-shadow: 4px 9px 10px 10px blue;  
+}
+
+.emaillink {
+  font-weight: bolder; 
+  text-decoration: none;
+  text-align: center; 
+  color: red; 
+  background-color: lightgoldenrodyellow;
+  border: solid;
+  border-color: aquamarine;
+  border-width: 2px;
+  width: 30%;
+  margin: 1.7% 1% 1% 36%;   
+  cursor: pointer;
+	background: light;
+	box-shadow: 2px 2px 2px 2px blue;
+  /* background-image: url(); */
+}
+
+
+
+
+
+                /* ----------------- */
+                     /* Attempts */
+                /* ----------------- */
+/* <img src="https://static.foxbusiness.com/foxbusiness.com/content/uploads/2021/11/Elf-on-the-Shelf-49ScoutElfKazooBand-thumbnail.png" 
+
+<img src="https://m.media-amazon.com/images/M/MV5BMTk4MDM0MDM3N15BMl5BanBnXkFtZTgwMzIzMzU2MzE@._V1_.jpg"
+
+
+/* DOES NOT RESIZE */
+/* <img src="https://h2.commercev3.net/cdn.bitsandpieces.com/images/1000/40481.jpg" */ 
+
+/* NOTES */
+
+
+/* img.center{
+  position:absolute;
+  z-index: -1;
+} */
+
